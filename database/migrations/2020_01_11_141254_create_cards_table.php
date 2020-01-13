@@ -20,6 +20,7 @@ class CreateCardsTable extends Migration
             $table->string('img');
             $table->decimal('price');
             $table->integer('qty');
+            $table->integer('total');
             $table->timestamps();
         });
     }
